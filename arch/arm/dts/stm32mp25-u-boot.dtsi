@@ -98,6 +98,14 @@
 	bootph-all;
 };
 
+&ltdc {
+	bootph-all;
+};
+
+&lvds {
+	bootph-all;
+};
+
 &pinctrl {
 	bootph-all;
 };
