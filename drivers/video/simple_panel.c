@@ -240,18 +240,18 @@ static const struct simple_panel_drv_data tfc_s9700rtwv43tr_01b_data = {
 static const struct udevice_id simple_panel_ids[] = {
 	{ .compatible = "simple-panel" },
 	{ .compatible = "panel-lvds" },
-	{ .compatible = "auo,b133xtn01" },
 	{ .compatible = "auo,b116xw03" },
 	{ .compatible = "auo,b133htn01" },
+	{ .compatible = "auo,b133xtn01" },
+	{ .compatible = "boe,nv101wxmn51" },
 	{ .compatible = "boe,nv140fhmn49" },
 	{ .compatible = "lg,lb070wv8" },
-	{ .compatible = "sharp,lq123p1jx31" },
-	{ .compatible = "boe,nv101wxmn51" },
 	{ .compatible = "panasonic,vvx10f004b00",
 	  .data = (ulong)&panasonic_vvx10f004b00_data },
+	{ .compatible = "rocktech,rk043fn48h" },
+	{ .compatible = "sharp,lq123p1jx31" },
 	{ .compatible = "tfc,s9700rtwv43tr-01b",
 	  .data = (ulong)&tfc_s9700rtwv43tr_01b_data },
-	{ .compatible = "rocktech,rk043fn48h" },
 	{ }
 };
 
